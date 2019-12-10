@@ -1,0 +1,21 @@
+.slide {
+  width: 99%;
+}
+
+.item {
+  display: block !important;
+}
+
+.carousel-inner {
+  display: flex;
+}
+
+.my-item {
+  flex-shrink: 0;
+  width: auto;
+}
+
+.carousel-inner {
+  overflow: visible;
+  transition: 2s;
+}
